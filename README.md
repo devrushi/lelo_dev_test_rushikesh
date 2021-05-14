@@ -1,9 +1,17 @@
 # Lelo Content Migration System
 
-Lelo content migration system is a system to migrate the content upstream (e.g. from test to production). It is a Drupal 8 configuration system.
+Lelo content migration system is to migrate the content upstream (e.g. from test to production). 
+* It is on the Drupal 8 configuration system. 
+* It uses the Entity Share module.
+* Entity Share module is developed and maintained by Drupal organization and it compatible with Drupal 8 and 9.
+* Entity Share module uses JSON:API endpoints to transfer data in a secured way to only authorised users.
+* This module helps clients to achieve a workflow where they can share a piece of content across multi sites without disrupting the workflow.
+* It also provides a UI for data synchronization and status tracking.
 
-Since there are often a lot of landing pages or product pages that are needed to be build on a dev/test environment, a lot of time is used by the content editors.This module would help the content editor team by saving hours of rework.
- 
+![alt text](https://github.com/devrushi/lelo_dev_test_rushikesh/EntityShareModule.png?raw=true)
+
+Fig 1.0 Data flow in the module
+
 ## Installation
 
 * Install composer 
